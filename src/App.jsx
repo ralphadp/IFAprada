@@ -3,6 +3,7 @@ import viteLogo from '/prada.jpg'
 import React, { useState, useMemo } from 'react';
 
 import Tablas from './tablas';
+import Footer from './footer';
 
 
 import './App.css'
@@ -24,7 +25,8 @@ function App() {
       <br/>
 
       <Tablas/>
-
+      
+      <Footer/>
     </>
   )
 }
