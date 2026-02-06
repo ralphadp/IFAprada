@@ -5,7 +5,7 @@ import DataTable from 'react-data-table-component';
 import { horario } from './horario';
 
 
-
+import ExportPDF from './exportToPdf';
 
 const TextField = styled.input`
 	height: 32px;
@@ -250,8 +250,21 @@ function Tablas() {
 			<FilterComponent onFilter={e => setFilterText(e.target.value)} onClear={handleClear} filterText={filterText} />
 		);
 	}, [filterText, resetPaginationToggle]);
+	
+	const performTitle = () => {
+		if (filterText) {
+			return 'IFA Raul G. Prada - Horario 2026 - ' + filterText;
+		}
+		
+		return 'IFA Raul G. Prada - Horario 2026'; 
+			
+	}
 
 	return (
+		<div>
+		<button className="export" onClick={() => ExportPDF(columns, filteredHorario, performTitle())}>
+			Exportar a PDF
+		</button>
 		<DataTable
 		        title="Horarios - Gestión 2026"
 			    columns={columns}
@@ -261,6 +274,7 @@ function Tablas() {
 				subHeader
 			    subHeaderComponent={subHeaderComponentMemo}
 		/>
+		</div>
 	);
 };
 
