@@ -7,6 +7,20 @@ import { horario } from './horario';
 
 import ExportPDF from './exportToPdf';
 
+
+const SelectField = styled.select`
+	height: 32px;
+	width: 200px;
+	border-radius: 3px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border: 1px solid #e5e5e5;
+	padding: 0 32px 0 16px;
+	display: block;
+`;
+
 const TextField = styled.input`
 	height: 32px;
 	width: 200px;
@@ -36,8 +50,25 @@ const ClearButton = styled.button`
 	justify-content: center;
 `;
 
-const FilterComponent = ({ filterText, onFilter, onClear }) => (
+const FilterComponent = ({ filterText, onFilter, onClear, onSelect }) => (
 	<>
+		<SelectField id="filteroptions" onChange={onSelect}>
+				<option value="" selected>(Todos)</option>
+			    <option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="1A">1A</option>
+				<option value="2A">2A</option>
+				<option value="3A">3A</option>
+				<option value="1B">1B</option>
+				<option value="2B">2B</option>
+				<option value="3B">3B</option>
+				<option value="1C">1C</option>
+				<option value="2C">2C</option>
+				<option value="3C">3C</option>
+				<option value="tarde">tarde</option>
+				<option value="noche">noche</option>
+		</SelectField>
 		<TextField
 			id="search"
 			type="text"
@@ -245,9 +276,12 @@ function Tablas() {
 				setFilterText('');
 			}
 		};
+		const handleSelect = (e) => {
+			setFilterText(e.target.value);
+		};
 
 		return (
-			<FilterComponent onFilter={e => setFilterText(e.target.value)} onClear={handleClear} filterText={filterText} />
+			<FilterComponent onFilter={e => setFilterText(e.target.value)} onClear={handleClear} filterText={filterText} onSelect={e => setFilterText(e.target.value)} />
 		);
 	}, [filterText, resetPaginationToggle]);
 	
