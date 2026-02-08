@@ -53,21 +53,31 @@ const ClearButton = styled.button`
 const FilterComponent = ({ filterText, onFilter, onClear, onSelect }) => (
 	<>
 		<SelectField id="filteroptions" onChange={onSelect}>
-				<option value="" selected>(Todos)</option>
-			    <option value="1">1</option>
-				<option value="2">2</option>
-				<option value="3">3</option>
+				<option value="" defaultValue>(Todos)</option>
 				<option value="1A">1A</option>
-				<option value="2A">2A</option>
-				<option value="3A">3A</option>
+				<option value="1A - Tarde">1A Tarde</option>
+				<option value="1A - Noche">1A Noche</option>
 				<option value="1B">1B</option>
-				<option value="2B">2B</option>
-				<option value="3B">3B</option>
+				<option value="1B - Tarde">1B Tarde</option>
+				<option value="1B - Noche">1B Noche</option>
 				<option value="1C">1C</option>
+				<option value="1C - Tarde">1C Tarde</option>
+				<option value="2A">2A</option>
+				<option value="2A - Tarde">2A Tarde</option>
+				<option value="2A - Noche">2A Noche</option>
+				<option value="2B">2B</option>
+				<option value="2B - Tarde">2B Tarde</option>
 				<option value="2C">2C</option>
+				<option value="2C - Tarde">2C Tarde</option>
+				<option value="3A">3A</option>
+				<option value="3A - Tarde">3A Tarde</option>
+				<option value="3A - Noche">3A Noche</option>
+				<option value="3B">3B</option>
+				<option value="3B - Tarde">3B Tarde</option>
 				<option value="3C">3C</option>
-				<option value="tarde">tarde</option>
-				<option value="noche">noche</option>
+				<option value="3C - Tarde">3C Tarde</option>
+				<option value="Tarde">Tarde</option>
+				<option value="Noche">Noche</option>
 		</SelectField>
 		<TextField
 			id="search"
