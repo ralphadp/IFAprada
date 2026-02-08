@@ -205,7 +205,7 @@ export const horario = [
 		martes: {materia: 'Anatomia Artistica I', profesor: 'TS Edgar Garcia', aula: 'Aula 5'},
 		miercoles: {materia: 'Dibujo I', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo I'},
 		jueves: {materia: 'Geometria I', profesor: 'Lic Silvia Salazar', aula: 'Aula 5'},
-		viernes: {materia: 'Composicion', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'}
+		viernes: {materia: 'Composicion I', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'}
 	},
 	{
 		id: 21,
@@ -215,7 +215,7 @@ export const horario = [
 		martes: {materia: 'Anatomia Artistica I', profesor: 'TS Edgar Garcia', aula: 'Aula 5'},
 		miercoles: {materia: 'Dibujo I', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo I'},
 		jueves: {materia: 'Geometria I', profesor: 'Lic Silvia Salazar', aula: 'Aula 5'},
-		viernes: {materia: 'Composicion', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'}
+		viernes: {materia: 'Composicion I', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'}
 	},
 	{
 		id: 22,
