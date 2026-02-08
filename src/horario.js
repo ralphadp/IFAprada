@@ -54,7 +54,7 @@ export const horario = [
 		id: 6,
 		curso: '1A - Tarde',
 		hora: '16:55 - 17:35',
-		lunes: {materia: "Escultura I", profesor: 'TS Sandro Arrellano', aula: "Taller de Escultura II"},
+		lunes: {materia: 'Composicion I', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'},
 		martes: {materia: 'Dibujo I', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo I'}, 
 		miercoles: {materia: 'Historia del arte I', profesor: 'Ts Eddy Ortega', aula: 'Aula 3'},
 		jueves: {materia: 'Geometria I', profesor: 'Lic. Jorge Saavedra', aula: 'Historia del arte'},
@@ -64,7 +64,7 @@ export const horario = [
 		id: 7,
 		curso: '1A - Tarde',
 		hora: '17:35 - 18:15',
-		lunes: {materia: "Escultura I", profesor: 'TS Sandro Arrellano', aula: "Taller de Escultura II"},
+		lunes: {materia: 'Composicion I', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'},
 		martes: {materia: 'Dibujo I', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo I'},
 		miercoles: {materia: 'Historia del arte I', profesor: 'Ts Eddy Ortega', aula: 'Aula 3'},
 		jueves: {materia: 'Geometria I', profesor: 'Lic. Jorge Saavedra', aula: 'Historia del arte'},
@@ -76,21 +76,20 @@ export const horario = [
 		curso: '1B - Tarde',
 		hora: '14:00 - 14:40',
 		lunes: {materia: 'Dibujo I', profesor: 'TS Alberto Quispe', aula: 'Taller de Dibujo I'},
-		martes: {materia: 'Geometria I', profesor: 'Lic. Jorge Saavedra', aula: 'Historia del arte'},
-		miercoles: {materia: 'Anatomia Artistica I', profesor: 'TS Edgar Garcia', aula: 'Aula 3'},
-		jueves: {materia: 'Historia del arte I', profesor: 'TS Lorena Suarez', aula: 'Aula 6'},
-		viernes: {materia: 'Composicion', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'}
+		martes: {materia: 'Historia del arte I', profesor: 'TS Lorena Suarez', aula: 'Aula 3'},
+		miercoles: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Taller de Pintura I'},
+		jueves: {materia: 'Geometria I', profesor: 'Lic. Jorge Saavedra', aula: 'Historia del arte'},
+		viernes: {materia: 'Composicion I', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'}
 },
 	{
 		id: 9,
 		curso: '1B - Tarde',
 		hora: '14:40 - 15:20',
 		lunes: {materia: 'Dibujo I', profesor: 'TS Alberto Quispe', aula: 'Taller de Dibujo I'},
-		martes: {materia: 'Geometria I', profesor: 'Lic. Jorge Saavedra', aula: 'Historia del arte'},
-		miercoles: {materia: 'Anatomia Artistica I', profesor: 'TS Edgar Garcia', aula: 'Aula 3'},
-		jueves: {materia: 'Historia del arte I', profesor: 'TS Lorena Suarez', aula: 'Aula 6'},
-		viernes: {materia: 'Composicion', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'}
-
+		martes: {materia: 'Historia del arte I', profesor: 'TS Lorena Suarez', aula: 'Aula 3'},
+		miercoles: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Taller de Pintura I'},
+		jueves: {materia: 'Geometria I', profesor: 'Lic. Jorge Saavedra', aula: 'Historia del arte'},
+		viernes: {materia: 'Composicion I', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'}
 	},
 	{
 		id: 10,
@@ -101,7 +100,6 @@ export const horario = [
 		miercoles: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Taller de Pintura I'},
 		jueves: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 6'},
 		viernes: {materia: 'Escultura I', profesor: 'TS Sandro Arrellano', aula: 'Taller de Escultura I'}
-
 	},
 	{
 		id: 11,
@@ -129,7 +127,7 @@ export const horario = [
 		hora: '16:55 - 17:35',
 		lunes: {materia: 'Dibujo I', profesor: 'TS Alberto Quispe', aula: 'Taller de Dibujo I'},
 		martes: {materia: 'Ceramica I', profesor: 'TS Bruno Sanchez', aula: 'Taller de Escultura II'},
-		miercoles: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Taller de Pintura I'},
+		miercoles: {materia: 'Anatomia Artistica I', profesor: 'TS Hugo Andia', aula: 'Aula 4'},
 		jueves: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 6'},
 		viernes: {materia: 'Escultura I', profesor: 'TS Sandro Arrellano', aula: 'Taller de Escultura I'}
 
@@ -140,7 +138,7 @@ export const horario = [
 		hora: '17:35 - 18:15',
 		lunes: {materia: 'Dibujo I', profesor: 'TS Alberto Quispe', aula: 'Taller de Dibujo I'},
 		martes: {materia: 'Ceramica I', profesor: 'TS Bruno Sanchez', aula: 'Taller de Escultura II'},
-		miercoles: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Taller de Pintura I'},
+		miercoles: {materia: 'Anatomia Artistica I', profesor: 'TS Hugo Andia', aula: 'Aula 4'},
 		jueves: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 6'},
 		viernes: {materia: 'Escultura I', profesor: 'TS Sandro Arrellano', aula: 'Taller de Escultura I'}
 
