@@ -666,41 +666,41 @@ export const horario = [
 		id: 64,
 		curso: '1A - Noche',
 		hora: '18:20 - 18:55',
-		lunes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
-		martes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
+		lunes: {materia: 'Ceramica I', profesor: 'TS Edgar Garcia', aula: 'Taller de Ceramica'},
+		martes: {materia: 'Anatomia Artistica I', profesor: 'TS Eddy Ortega', aula: 'Aula 3'},
 		miercoles: {materia: 'Dibujo I', profesor: 'TS Alberto Quispe', aula: 'Taller de Dibujo I'},
-		jueves: {materia: 'Ceramica I', profesor: 'TS Edgar Garcia', aula: 'Taller de Ceramica'},
-		viernes: {materia: 'Escultura I', profesor: 'TS Sandro Arellano', aula: 'Taller de Escultura II'}
+		jueves: {materia: 'Composicion I', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'},
+		viernes: {materia: 'Historia del arte I', profesor: 'TS Lorena Suarez', aula: 'Aula 3'}
 	},
 	{
 		id: 65,
 		curso: '1A - Noche',
 		hora: '18:55 - 19:30',
-		lunes: {materia: 'Historia del arte I', profesor: 'TS Lorena Suarez', aula: 'Aula 4'},
-		martes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
+		lunes: {materia: 'Ceramica I', profesor: 'TS Edgar Garcia', aula: 'Taller de Ceramica'},
+		martes: {materia: 'Anatomia Artistica I', profesor: 'TS Eddy Ortega', aula: 'Aula 3'},
 		miercoles: {materia: 'Dibujo I', profesor: 'TS Alberto Quispe', aula: 'Taller de Dibujo I'},
-		jueves: {materia: 'Ceramica I', profesor: 'TS Edgar Garcia', aula: 'Taller de Ceramica'},
-		viernes: {materia: 'Escultura I', profesor: 'TS Sandro Arellano', aula: 'Taller de Escultura II'}
+		jueves: {materia: 'Composicion I', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'},
+		viernes: {materia: 'Historia del arte I', profesor: 'TS Lorena Suarez', aula: 'Aula 3'}
 	},
 	{
 		id: 66,
 		curso: '1A - Noche',
 		hora: '19:30 - 20:05',
-		lunes: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Aula de Hitoria'},
-		martes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
+		lunes: {materia: 'Ceramica I', profesor: 'TS Edgar Garcia', aula: 'Taller de Ceramica'},
+		martes: {materia: 'Graficas I', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
 		miercoles: {materia: 'Dibujo I', profesor: 'TS Alberto Quispe', aula: 'Taller de Dibujo I'},
-		jueves: {materia: 'Ceramica I', profesor: 'TS Edgar Garcia', aula: 'Taller de Ceramica'},
-		viernes: {materia: 'Escultura I', profesor: 'TS Sandro Arellano', aula: 'Taller de Escultura II'}
+		jueves: {materia: 'Escultura I', profesor: 'TS Lorena Suarez', aula: 'Taller de Escultura II'},
+		viernes: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Aula de Pintura III'}
 	},
 	{
 		id: 67,
 		curso: '1A - Noche',
 		hora: '20:05 - 20:40',
-		lunes: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Aula de Hitoria'},
-		martes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
+		lunes: {materia: 'Ceramica I', profesor: 'TS Edgar Garcia', aula: 'Taller de Ceramica'},
+		martes: {materia: 'Graficas I', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
 		miercoles: {materia: 'Dibujo I', profesor: 'TS Alberto Quispe', aula: 'Taller de Dibujo I'},
-		jueves: {materia: 'Ceramica I', profesor: 'TS Edgar Garcia', aula: 'Taller de Ceramica'},
-		viernes: {materia: 'Escultura I', profesor: 'TS Sandro Arellano', aula: 'Taller de Escultura II'}
+		jueves: {materia: 'Escultura I', profesor: 'TS Lorena Suarez', aula: 'Taller de Escultura II'},
+		viernes: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Aula de Pintura III'}
 	},
 	{
 		id: 68,
@@ -716,21 +716,21 @@ export const horario = [
 		id: 69,
 		curso: '1A - Noche',
 		hora: '20:50 - 21:25',
-		lunes: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Aula de Hitoria'},
-		martes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
+		lunes: {materia: 'Geometria I', profesor: 'Lic Jorge Saavedra', aula: 'Historia del arte'},
+		martes: {materia: 'Graficas I', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
 		miercoles: {materia: 'Dibujo I', profesor: 'TS Alberto Quispe', aula: 'Taller de Dibujo I'},
-		jueves: {materia: 'Composicion I', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'},
-		viernes: {materia: 'Anatomia Artistica I', profesor: 'TS Jenny Camargo', aula: 'Aula 3'}
+		jueves: {materia: 'Escultura I', profesor: 'TS Lorena Suarez', aula: 'Taller de Escultura II'},
+		viernes: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Aula de Pintura III'}
 	},
 	{
 		id: 70,
 		curso: '1A - Noche',
 		hora: '21:25 - 22:00',
-		lunes: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Aula de Hitoria'},
-		martes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
+		lunes: {materia: 'Geometria I', profesor: 'Lic Jorge Saavedra', aula: 'Historia del arte'},
+		martes: {materia: 'Graficas I', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
 		miercoles: {materia: 'Dibujo I', profesor: 'TS Alberto Quispe', aula: 'Taller de Dibujo I'},
-		jueves: {materia: 'Composicion I', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'},
-		viernes: {materia: 'Anatomia Artistica I', profesor: 'TS Jenny Camargo', aula: 'Aula 3'}
+		jueves: {materia: 'Escultura I', profesor: 'TS Lorena Suarez', aula: 'Taller de Escultura II'},
+		viernes: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Aula de Pintura III'}
 	},
 	
 	
@@ -740,41 +740,41 @@ export const horario = [
 		id: 71,
 		curso: '1B - Noche',
 		hora: '18:20 - 18:55',
-		lunes: {materia: 'Escultura I', profesor: 'TS Edgar Garcia', aula: 'Taller de Escultura II'},
-		martes: {materia: 'Geometria I', profesor: 'Lic Jorge Saavedra', aula: 'Aula 4'},
-		miercoles: {materia: 'Composicion I', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'},
-		jueves: {materia: 'Dibujo I', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo I'},
+		lunes: {materia: 'Dibujo I', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo I'},
+		martes: {materia: 'Geometria I', profesor: 'Lic Jorge Saavedra', aula: 'Historia del arte'},
+		miercoles: {materia: 'Anatomia Artistica I', profesor: 'TS Eddy Ortega', aula: 'Aula 3'},
+		jueves: {materia: 'Pintura I', profesor: 'TS Jose Rodriguez', aula: 'Taller de Pintura III'},
 		viernes: {materia: 'Historia del arte I', profesor: 'TS Lorena Suarez', aula: 'Aula 4'}
 	},
 	{
 		id: 72,
 		curso: '1B - Noche',
 		hora: '18:55 - 19:30',
-		lunes: {materia: 'Escultura I', profesor: 'TS Edgar Garcia', aula: 'Taller de Escultura II'},
-		martes: {materia: 'Geometria I', profesor: 'Lic Jorge Saavedra', aula: 'Aula 4'},
-		miercoles: {materia: 'Composicion I', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'},
-		jueves: {materia: 'Dibujo I', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo I'},
+		lunes: {materia: 'Dibujo I', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo I'},
+		martes: {materia: 'Geometria I', profesor: 'Lic Jorge Saavedra', aula: 'Historia del arte'},
+		miercoles: {materia: 'Anatomia Artistica I', profesor: 'TS Eddy Ortega', aula: 'Aula 3'},
+		jueves: {materia: 'Pintura I', profesor: 'TS Jose Rodriguez', aula: 'Taller de Pintura III'},
 		viernes: {materia: 'Historia del arte I', profesor: 'TS Lorena Suarez', aula: 'Aula 4'}
 	},
 	{
 		id: 73,
 		curso: '1B - Noche',
-		hora: '19:30 - 20:05',
-		lunes: {materia: 'Escultura I', profesor: 'TS Edgar Garcia', aula: 'Taller de Escultura II'},
-		martes: {materia: 'Ceramica I', profesor: 'TS Bruno Sanchez', aula: 'Taller de Ceramica'},
-		miercoles: {materia: 'Pintura I', profesor: 'TS Jose Rodriguez', aula: 'Aula 3'},
-		jueves: {materia: 'Dibujo I', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo I'},
-		viernes: {materia: 'Graficas I', profesor: 'TS Samuel Maita', aula: 'Aula 6'}
+		hora: '19:30 - 20:05',		
+		lunes: {materia: 'Dibujo I', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo I'},
+		martes: {materia: 'Graficas I', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
+		miercoles: {materia: 'Ceramica I', profesor: 'TS Bruno Sanchez', aula: 'Taller de Ceramica'},
+		jueves: {materia: 'Pintura I', profesor: 'TS Jose Rodriguez', aula: 'Taller de Pintura III'},
+		viernes: {materia: 'Escultura I', profesor: 'TS Sandro Arrellano', aula: 'Taller de Escultura II'}
 	},
 	{
 		id: 74,
 		curso: '1B - Noche',
 		hora: '20:05 - 20:40',
-		lunes: {materia: 'Escultura I', profesor: 'TS Edgar Garcia', aula: 'Taller de Escultura II'},
-		martes: {materia: 'Ceramica I', profesor: 'TS Bruno Sanchez', aula: 'Taller de Ceramica'},
-		miercoles: {materia: 'Pintura I', profesor: 'TS Jose Rodriguez', aula: 'Aula 3'},
-		jueves: {materia: 'Dibujo I', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo I'},
-		viernes: {materia: 'Graficas I', profesor: 'TS Samuel Maita', aula: 'Aula 6'}
+		lunes: {materia: 'Dibujo I', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo I'},
+		martes: {materia: 'Graficas I', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
+		miercoles: {materia: 'Ceramica I', profesor: 'TS Bruno Sanchez', aula: 'Taller de Ceramica'},
+		jueves: {materia: 'Pintura I', profesor: 'TS Jose Rodriguez', aula: 'Taller de Pintura III'},
+		viernes: {materia: 'Escultura I', profesor: 'TS Sandro Arrellano', aula: 'Taller de Escultura II'}
 	},
 	{
 		id: 75,
@@ -790,21 +790,21 @@ export const horario = [
 		id: 76,
 		curso: '1B - Noche',
 		hora: '20:50 - 21:25',
-		lunes: {materia: 'Anatomia Artistica I', profesor: 'TS Hugo Andia', aula: 'Aula 3'},
-		martes: {materia: 'Ceramica I', profesor: 'TS Bruno Sanchez', aula: 'Taller de Ceramica'},
-		miercoles: {materia: 'Pintura I', profesor: 'TS Jose Rodriguez', aula: 'Aula 3'},
-		jueves: {materia: 'Dibujo I', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo I'},
-		viernes: {materia: 'Graficas I', profesor: 'TS Samuel Maita', aula: 'Aula 6'}
+		lunes: {materia: 'Dibujo I', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo I'},
+		martes: {materia: 'Graficas I', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
+		miercoles: {materia: 'Ceramica I', profesor: 'TS Bruno Sanchez', aula: 'Taller de Ceramica'},
+		jueves: {materia: 'Composicion I', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'},
+		viernes: {materia: 'Escultura I', profesor: 'TS Sandro Arrellano', aula: 'Taller de Escultura II'}
 	},
 	{
 		id: 77,
 		curso: '1B - Noche',
 		hora: '21:25 - 22:00',
-		lunes: {materia: 'Anatomia Artistica I', profesor: 'TS Hugo Andia', aula: 'Aula 3'},
-		martes: {materia: 'Ceramica I', profesor: 'TS Bruno Sanchez', aula: 'Taller de Ceramica'},
-		miercoles: {materia: 'Pintura I', profesor: 'TS Jose Rodriguez', aula: 'Aula 3'},
-		jueves: {materia: 'Dibujo I', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo I'},
-		viernes: {materia: 'Graficas I', profesor: 'TS Samuel Maita', aula: 'Aula 6'}
+		lunes: {materia: 'Dibujo I', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo I'},
+		martes: {materia: 'Graficas I', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
+		miercoles: {materia: 'Ceramica I', profesor: 'TS Bruno Sanchez', aula: 'Taller de Ceramica'},
+		jueves: {materia: 'Composicion I', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'},
+		viernes: {materia: 'Escultura I', profesor: 'TS Sandro Arrellano', aula: 'Taller de Escultura II'}
 	},
 	
 	
@@ -814,8 +814,8 @@ export const horario = [
 		curso: '2A - Noche',
 		hora: '18:20 - 18:55',
 		lunes: {materia: 'Pintura II', profesor: 'TS Jesus Florido', aula: 'Taller de pintura III'},
-		martes: {materia: 'Graficas II', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
-		miercoles: {materia: 'Historia del arte II', profesor: 'TS Lorena Suarez', aula: 'Aula 3'},
+		martes: {materia: 'Graficas II', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
+		miercoles: {materia: 'Historia del arte II', profesor: 'TS Lorena Suarez', aula: 'Historia del arte'},
 		jueves: {materia: 'Dibujo II', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo II'},
 		viernes: {materia: 'Composicion II', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'}
 	},
@@ -824,8 +824,8 @@ export const horario = [
 		curso: '2A - Noche',
 		hora: '18:55 - 19:30',
 		lunes: {materia: 'Pintura II', profesor: 'TS Jesus Florido', aula: 'Taller de pintura III'},
-		martes: {materia: 'Graficas II', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
-		miercoles: {materia: 'Historia del arte II', profesor: 'TS Lorena Suarez', aula: 'Aula 3'},
+		martes: {materia: 'Graficas II', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
+		miercoles: {materia: 'Historia del arte II', profesor: 'TS Lorena Suarez', aula: 'Historia del arte'},
 		jueves: {materia: 'Dibujo II', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo II'},
 		viernes: {materia: 'Composicion II', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'}
 	},
@@ -834,20 +834,20 @@ export const horario = [
 		curso: '2A - Noche',
 		hora: '19:30 - 20:05',
 		lunes: {materia: 'Pintura II', profesor: 'TS Jesus Florido', aula: 'Taller de pintura III'},
-		martes: {materia: 'Graficas II', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
-		miercoles: {materia: 'Ceramica II', profesor: 'TS Hugo Andia', aula: 'Taller de Ceramica'},
+		martes: {materia: 'Graficas II', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
+		miercoles: {materia: 'Escultura II', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'},
 		jueves: {materia: 'Dibujo II', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo II'},
-		viernes: {materia: 'Escultura I', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'}
+		viernes: {materia: 'Ceramica II', profesor: 'TS Hugo Andia', aula: 'Taller de Ceramica'}
 	},
 	{
 		id: 81,
 		curso: '2A - Noche',
 		hora: '20:05 - 20:40',
 		lunes: {materia: 'Pintura II', profesor: 'TS Jesus Florido', aula: 'Taller de pintura III'},
-		martes: {materia: 'Graficas II', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
-		miercoles: {materia: 'Ceramica II', profesor: 'TS Hugo Andia', aula: 'Taller de Ceramica'},
+		martes: {materia: 'Graficas II', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
+		miercoles: {materia: 'Escultura II', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'},
 		jueves: {materia: 'Dibujo II', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo II'},
-		viernes: {materia: 'Escultura I', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'}
+		viernes: {materia: 'Ceramica II', profesor: 'TS Hugo Andia', aula: 'Taller de Ceramica'}
 	},
 	{
 		id: 82,
@@ -864,64 +864,62 @@ export const horario = [
 		curso: '2A - Noche',
 		hora: '20:50 - 21:25',
 		lunes: {materia: 'Pintura II', profesor: 'TS Jesus Florido', aula: 'Taller de pintura III'},
-		martes: {materia: 'Anatomia Artistica II', profesor: 'TS Alberto Quispe', aula: 'Aula 6'},
-		miercoles: {materia: 'Ceramica II', profesor: 'TS Hugo Andia', aula: 'Taller de Ceramica'},
+		martes: {materia: 'Anatomia Artistica II', profesor: 'TS Eddy Ortega', aula: 'Aula 3'},
+		miercoles: {materia: 'Escultura II', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'},
 		jueves: {materia: 'Dibujo II', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo II'},
-		viernes: {materia: 'Escultura I', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'}
+		viernes: {materia: 'Ceramica II', profesor: 'TS Hugo Andia', aula: 'Taller de Ceramica'}
 	},
 	{
 		id: 84,
 		curso: '2A - Noche',
 		hora: '21:25 - 22:00',
 		lunes: {materia: 'Pintura II', profesor: 'TS Jesus Florido', aula: 'Taller de pintura III'},
-		martes: {materia: 'Anatomia Artistica II', profesor: 'TS Alberto Quispe', aula: 'Aula 6'},
-		miercoles: {materia: 'Ceramica II', profesor: 'TS Hugo Andia', aula: 'Taller de Ceramica'},
+		martes: {materia: 'Anatomia Artistica II', profesor: 'TS Eddy Ortega', aula: 'Aula 3'},
+		miercoles: {materia: 'Escultura II', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'},
 		jueves: {materia: 'Dibujo II', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo II'},
-		viernes: {materia: 'Escultura I', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'}
+		viernes: {materia: 'Ceramica II', profesor: 'TS Hugo Andia', aula: 'Taller de Ceramica'}
 	},
-	
-	
-	
-	
+
 	{
 		id: 85,
 		curso: '3A - Noche',
 		hora: '18:20 - 18:55',
-		lunes: {materia: 'Graficas III', profesor: 'Lic Silvia Salazar', aula: 'Aula 5'},
-		martes: {materia: 'Introduccion y Marketing de arte', profesor: 'Lic Pablo Viracocha', aula: 'Aula 4'},
-		miercoles: {materia: 'Critica del arte', profesor: 'Lic Pablo Viracocha', aula: 'Aula 5'},
-		jueves: {materia: 'Pintura III', profesor: 'TS Jenny Camargo', aula: 'Taller de pintura I'},
-		viernes: {materia: 'Taller de Grado', profesor: 'Lic Jorge Saavedra', aula: 'Aula 6'}
+		lunes: {materia: 'Dibujo III', profesor: 'TS Wilmer Uscamayta', aula: 'Taller de Dibujo II'},
+		martes: {materia: 'Introduccion y Marketing de arte', profesor: 'TS Pablo Viracocha', aula: 'Aula 4'},
+		miercoles: {materia: 'Graficas III', profesor: 'Lic Silvia Salazar', aula: 'Aula 5'},
+		jueves: {materia: 'Pintura III', profesor: 'TS Jenny Camargo', aula: 'Taller de pintura II'},
+		viernes: {materia: 'Historia del arte III', profesor: 'TS Jenny Camargo', aula: 'Aula 6'}
 	},
 	{
 		id: 86,
 		curso: '3A - Noche',
 		hora: '18:55 - 19:30',
-		lunes: {materia: 'Graficas III', profesor: 'Lic Silvia Salazar', aula: 'Aula 5'},
-		martes: {materia: 'Introduccion y Marketing de arte', profesor: 'Lic Pablo Viracocha', aula: 'Aula 4'},
-		miercoles: {materia: 'Critica del arte', profesor: 'Lic Pablo Viracocha', aula: 'Aula 5'},
-		jueves: {materia: 'Pintura III', profesor: 'TS Jenny Camargo', aula: 'Taller de pintura I'},
-		viernes: {materia: 'Taller de Grado', profesor: 'Lic Jorge Saavedra', aula: 'Aula 6'} 
+		lunes: {materia: 'Dibujo III', profesor: 'TS Wilmer Uscamayta', aula: 'Taller de Dibujo II'},
+		martes: {materia: 'Introduccion y Marketing de arte', profesor: 'TS Pablo Viracocha', aula: 'Aula 4'},
+		miercoles: {materia: 'Graficas III', profesor: 'Lic Silvia Salazar', aula: 'Aula 5'},
+		jueves: {materia: 'Pintura III', profesor: 'TS Jenny Camargo', aula: 'Taller de pintura II'},
+		viernes: {materia: 'Historia del arte III', profesor: 'TS Jenny Camargo', aula: 'Aula 6'}
+
 	},
 	{
 		id: 87,
 		curso: '3A - Noche',
 		hora: '19:30 - 20:05',
-        lunes: {materia: 'Graficas III', profesor: 'Lic Silvia Salazar', aula: 'Aula 5'},
+		lunes: {materia: 'Dibujo III', profesor: 'TS Wilmer Uscamayta', aula: 'Taller de Dibujo II'},
 		martes:  {materia: 'Ceramica III', profesor: 'TS Tony Santander', aula: 'Taller de Ceramica'},
-		miercoles: {materia: 'Escultura III', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'},
-		jueves: {materia: 'Pintura III', profesor: 'TS Jenny Camargo', aula: 'Taller de pintura I'},
-		viernes: {materia: 'Dibujo III', profesor: 'TS Wilmer Uscamayta', aula: 'Taller de Dibujo II'}
+		miercoles: {materia: 'Graficas III', profesor: 'Lic Silvia Salazar', aula: 'Aula 5'},
+		jueves: {materia: 'Pintura III', profesor: 'TS Jenny Camargo', aula: 'Taller de pintura II'},
+		viernes: {materia: 'Escultura III', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'}
 	},
 	{
 		id: 88,
 		curso: '3A - Noche',
 		hora: '20:05 - 20:40',
-        lunes: {materia: 'Graficas III', profesor: 'Lic Silvia Salazar', aula: 'Aula 5'},
+		lunes: {materia: 'Dibujo III', profesor: 'TS Wilmer Uscamayta', aula: 'Taller de Dibujo II'},
 		martes:  {materia: 'Ceramica III', profesor: 'TS Tony Santander', aula: 'Taller de Ceramica'},
-		miercoles: {materia: 'Escultura III', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'},
-		jueves: {materia: 'Pintura III', profesor: 'TS Jenny Camargo', aula: 'Taller de pintura I'},
-		viernes: {materia: 'Dibujo III', profesor: 'TS Wilmer Uscamayta', aula: 'Taller de Dibujo II'}
+		miercoles: {materia: 'Graficas III', profesor: 'Lic Silvia Salazar', aula: 'Aula 5'},
+		jueves: {materia: 'Pintura III', profesor: 'TS Jenny Camargo', aula: 'Taller de pintura II'},
+		viernes: {materia: 'Escultura III', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'}
 	},
 	{
 		id: 89,
@@ -937,20 +935,20 @@ export const horario = [
 		id: 90,
 		curso: '3A - Noche',
 		hora: '20:50 - 21:25',
-        lunes: {materia: 'Filosofia del arte', profesor: 'TS Tony Santander', aula: 'Aula 5'},
+        lunes: {materia: 'Filosofia del arte', profesor: 'TS Pablo Viracocha', aula: 'Aula 4'},
 		martes:  {materia: 'Ceramica III', profesor: 'TS Tony Santander', aula: 'Taller de Ceramica'},
-		miercoles: {materia: 'Escultura III', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'},
-		jueves: {materia: 'Pintura III', profesor: 'TS Jenny Camargo', aula: 'Taller de pintura I'},
-		viernes: {materia: 'Dibujo III', profesor: 'TS Wilmer Uscamayta', aula: 'Taller de Dibujo II'}
+		miercoles: {materia: 'Critica del arte', profesor: 'TS Pablo Viracocha', aula: 'Aula 5'},
+		jueves: {materia: 'Taller de Grado', profesor: 'Lic Jorge Saavedra', aula: 'Aula 4'},
+		viernes: {materia: 'Escultura III', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'}
 	},
 	{
 		id: 91,
 		curso: '3A - Noche',
 		hora: '21:25 - 22:00',
-        lunes: {materia: 'Filosofia del arte', profesor: 'TS Tony Santander', aula: 'Aula 5'},
+        lunes: {materia: 'Filosofia del arte', profesor: 'TS Pablo Viracocha', aula: 'Aula 4'},
 		martes:  {materia: 'Ceramica III', profesor: 'TS Tony Santander', aula: 'Taller de Ceramica'},
-		miercoles: {materia: 'Escultura III', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'},
-		jueves: {materia: 'Pintura III', profesor: 'TS Jenny Camargo', aula: 'Taller de pintura I'},
-		viernes: {materia: 'Dibujo III', profesor: 'TS Wilmer Uscamayta', aula: 'Taller de Dibujo II'}
+		miercoles: {materia: 'Critica del arte', profesor: 'TS Pablo Viracocha', aula: 'Aula 5'},
+		jueves: {materia: 'Taller de Grado', profesor: 'Lic Jorge Saavedra', aula: 'Aula 4'},
+		viernes: {materia: 'Escultura III', profesor: 'TS Sergio Vasquez', aula: 'Taller de Escultura I'}
 	},
 ];
