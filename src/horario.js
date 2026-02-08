@@ -56,9 +56,9 @@ export const horario = [
 		hora: '16:55 - 17:35',
 		lunes: {materia: "Escultura I", profesor: 'TS Sandro Arrellano', aula: "Taller de Escultura II"},
 		martes: {materia: 'Dibujo I', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo I'}, 
-		miercoles: {materia: 'Geometria I', profesor: 'Lic. Jorge Saavedra', aula: 'Historia del arte'},
-		jueves: {materia: 'Historia del arte I', profesor: 'Ts Sandro Arrellano', aula: 'Aula 6'},
-		viernes: {materia: 'Anatomia Artistica I', profesor: 'TS Sergio Vasquez', aula: 'Aula 3'}
+		miercoles: {materia: 'Historia del arte I', profesor: 'Ts Eddy Ortega', aula: 'Aula 3'},
+		jueves: {materia: 'Geometria I', profesor: 'Lic. Jorge Saavedra', aula: 'Historia del arte'},
+		viernes: {materia: 'Anatomia Artistica I', profesor: 'TS Sergio Vasquez', aula: 'Aula 6'}
 	},
     {
 		id: 7,
@@ -66,9 +66,9 @@ export const horario = [
 		hora: '17:35 - 18:15',
 		lunes: {materia: "Escultura I", profesor: 'TS Sandro Arrellano', aula: "Taller de Escultura II"},
 		martes: {materia: 'Dibujo I', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo I'},
-		miercoles: {materia: 'Geometria I', profesor: 'Lic. Jorge Saavedra', aula: 'Historia del arte'},
-		jueves: {materia: 'Historia del arte I', profesor: 'TS Sandro Arrellano', aula: 'Aula 6'},
-		viernes: {materia: 'Anatomia Artistica I', profesor: 'TS Sergio Vasquez', aula: 'Aula 3'}
+		miercoles: {materia: 'Historia del arte I', profesor: 'Ts Eddy Ortega', aula: 'Aula 3'},
+		jueves: {materia: 'Geometria I', profesor: 'Lic. Jorge Saavedra', aula: 'Historia del arte'},
+		viernes: {materia: 'Anatomia Artistica I', profesor: 'TS Sergio Vasquez', aula: 'Aula 6'}
 
 	},
 	{
@@ -150,10 +150,10 @@ export const horario = [
 		curso: '1C - Tarde',
 		hora: '14:00 - 14:40',
 		lunes: {materia: 'Ceramica I', profesor: 'TS Bruno Sanchez', aula: 'Taller de Ceramica'},
-		martes: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Taller de Pintura I'},
+		martes: {materia: 'Pintura I', profesor: 'TS Jose Rodriguez', aula: 'Taller de Pintura I'},
 		miercoles: {materia: 'Dibujo I', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo I'},
 		jueves: {materia: 'Escultura I', profesor: 'TS Sandro Arrellano', aula: 'Taller de Escultura II'},
-		viernes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 6'}
+		viernes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 5'}
 
 	},
 	{
@@ -161,10 +161,10 @@ export const horario = [
 		curso: '1C - Tarde',
 		hora: '14:40 - 15:20',
 		lunes: {materia: 'Ceramica I', profesor: 'TS Bruno Sanchez', aula: 'Taller de Ceramica'},
-		martes: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Taller de Pintura I'},
+		martes: {materia: 'Pintura I', profesor: 'TS Jose Rodriguez', aula: 'Taller de Pintura I'},
 		miercoles: {materia: 'Dibujo I', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo I'},
 		jueves: {materia: 'Escultura I', profesor: 'TS Sandro Arrellano', aula: 'Taller de Escultura II'},
-		viernes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 6'}
+		viernes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 5'}
 
 	},
 	{
@@ -172,10 +172,10 @@ export const horario = [
 		curso: '1C - Tarde',
 		hora: '15:20 - 16:00',
 		lunes: {materia: 'Ceramica I', profesor: 'TS Bruno Sanchez', aula: 'Taller de Ceramica'},
-		martes: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Taller de Pintura I'},
+		martes: {materia: 'Pintura I', profesor: 'TS Jose Rodriguez', aula: 'Taller de Pintura I'},
 		miercoles: {materia: 'Dibujo I', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo I'},
 		jueves: {materia: 'Escultura I', profesor: 'TS Sandro Arrellano', aula: 'Taller de Escultura II'},
-		viernes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 6'}
+		viernes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 5'}
 
 	},
 	{
@@ -194,30 +194,29 @@ export const horario = [
 		curso: '1C - Tarde',
 		hora: '16:15 - 16:55',
 		lunes: {materia: 'Ceramica I', profesor: 'TS Bruno Sanchez', aula: 'Taller de Ceramica'},
-		martes: {materia: 'Pintura I', profesor: 'TS Eddy Ortega', aula: 'Taller de Pintura I'},
+		martes: {materia: 'Pintura I', profesor: 'TS Jose Rodriguez', aula: 'Taller de Pintura I'},
 		miercoles: {materia: 'Dibujo I', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo I'},
 		jueves: {materia: 'Escultura I', profesor: 'TS Sandro Arrellano', aula: 'Taller de Escultura II'},
-		viernes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 6'}
+		viernes: {materia: 'Graficas I', profesor: 'TS Emma Mamani', aula: 'Aula 5'}
 	},
 	{
 		id: 20,
 		curso: '1C - Tarde',
 		hora: '16:55 - 17:35',
-		lunes: {materia: 'Geometria I', profesor: 'Lic Silvia Salazar', aula: 'Aula 5'},
-		martes: {materia: 'Historia del arte I', profesor: 'Lic Jorge Saavedra', aula: 'Aula historia'},
+		lunes: {materia: 'Historia del arte I', profesor: 'Lic Jorge Saavedra', aula: 'Historia del arte'},
+		martes: {materia: 'Anatomia Artistica I', profesor: 'TS Edgar Garcia', aula: 'Aula 5'},
 		miercoles: {materia: 'Dibujo I', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo I'},
-		jueves: {materia: 'Anatomia Artistica I', profesor: 'TS Hugo Andia', aula: 'Aula 3'},
+		jueves: {materia: 'Geometria I', profesor: 'Lic Silvia Salazar', aula: 'Aula 5'},
 		viernes: {materia: 'Composicion', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'}
-
 	},
 	{
 		id: 21,
 		curso: '1C - Tarde',
 		hora: '17:35 - 18:15',
-		lunes: {materia: 'Geometria I', profesor: 'Lic Silvia Salazar', aula: 'Aula 5'},
-		martes: {materia: 'Historia del arte I', profesor: 'Lic Jorge Saavedra', aula: 'Aula historia'},
+		lunes: {materia: 'Historia del arte I', profesor: 'Lic Jorge Saavedra', aula: 'Historia del arte'},
+		martes: {materia: 'Anatomia Artistica I', profesor: 'TS Edgar Garcia', aula: 'Aula 5'},
 		miercoles: {materia: 'Dibujo I', profesor: 'TS Gimber Rojas', aula: 'Taller de Dibujo I'},
-		jueves: {materia: 'Anatomia Artistica I', profesor: 'TS Hugo Andia', aula: 'Aula 3'},
+		jueves: {materia: 'Geometria I', profesor: 'Lic Silvia Salazar', aula: 'Aula 5'},
 		viernes: {materia: 'Composicion', profesor: 'Lic Alejandro Sejas', aula: 'Aula 4'}
 	},
 	{
@@ -320,7 +319,7 @@ export const horario = [
 		hora: '15:20 - 16:00',
 		lunes: {materia: 'Graficas II', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
 		martes: {materia: 'Pintura II', profesor: 'TS Jesus Florido', aula: 'Taller de Pintura II'},
-		miercoles: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Aula 3'},
+		miercoles: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Taller de Escultura I'},
 		jueves: {materia: 'Dibujo II', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo II'},
 		viernes: {materia: 'Ceramica II', profesor: 'TS Sergio Vasquez', aula: 'Taller de Ceramica'}
 
@@ -342,7 +341,7 @@ export const horario = [
 		hora: '16:15 - 16:55',
 		lunes: {materia: 'Graficas II', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
 		martes: {materia: 'Pintura II', profesor: 'TS Jesus Florido', aula: 'Taller de Pintura II'},
-		miercoles: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Aula 3'},
+		miercoles: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Taller de Escultura I'},
 		jueves: {materia: 'Dibujo II', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo II'},
 		viernes: {materia: 'Ceramica II', profesor: 'TS Sergio Vasquez', aula: 'Taller de Ceramica'}
 	},
@@ -352,7 +351,7 @@ export const horario = [
 		hora: '16:55 - 17:35',
 		lunes: {materia: 'Graficas II', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
 		martes: {materia: 'Pintura II', profesor: 'TS Jesus Florido', aula: 'Taller de Pintura II'},
-		miercoles: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Aula 3'},
+		miercoles: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Taller de Escultura I'},
 		jueves: {materia: 'Dibujo II', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo II'},
 		viernes: {materia: 'Anatomia Artistica II', profesor: 'TS Emma Mamani', aula: 'Aula 3'}
 
@@ -363,7 +362,7 @@ export const horario = [
 		hora: '17:35 - 18:15',
 		lunes: {materia: 'Graficas II', profesor: 'TS Samuel Maita', aula: 'Aula 6'},
 		martes: {materia: 'Pintura II', profesor: 'TS Jesus Florido', aula: 'Taller de Pintura II'},
-		miercoles: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Aula 3'},
+		miercoles: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Taller de Escultura I'},
 		jueves: {materia: 'Dibujo II', profesor: 'TS Emilio Gamboa', aula: 'Taller de Dibujo II'},
 		viernes: {materia: 'Anatomia Artistica II', profesor: 'TS Emma Mamani', aula: 'Aula 3'}
 	},
@@ -371,8 +370,8 @@ export const horario = [
 		id: 36,
 		curso: '2C - Tarde',
 		hora: '14:00 - 14:40',
-		lunes: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Aula 3'},
-		martes: {materia: 'Graficas II', profesor: 'TS Emma Mamani', aula: 'Aula 6'},
+		lunes: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Taller de Escultura I'},
+		martes: {materia: 'Graficas II', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
 		miercoles: {materia: 'Pintura II', profesor: 'TS Jesus Florido', aula: 'Taller de Pintura III'},
 		jueves: {materia: 'Ceramica II', profesor: 'TS Sergio Vasquez', aula: 'Taller de Ceramica'},
 		viernes: {materia: 'Dibujo II', profesor: 'TS Alberto Quispe', aula: 'Taller de Dibujo I'}
@@ -381,8 +380,8 @@ export const horario = [
 		id: 37,
 		curso: '2C - Tarde',
 		hora: '14:40 - 15:20',
-		lunes: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Aula 3'},
-		martes: {materia: 'Graficas II', profesor: 'TS Emma Mamani', aula: 'Aula 6'},
+		lunes: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Taller de Escultura I'},
+		martes: {materia: 'Graficas II', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
 		miercoles: {materia: 'Pintura II', profesor: 'TS Jesus Florido', aula: 'Taller de Pintura III'},
 		jueves: {materia: 'Ceramica II', profesor: 'TS Sergio Vasquez', aula: 'Taller de Ceramica'},
 		viernes: {materia: 'Dibujo II', profesor: 'TS Alberto Quispe', aula: 'Taller de Dibujo I'} 
@@ -392,8 +391,8 @@ export const horario = [
 		id: 38,
 		curso: '2C - Tarde',
 		hora: '15:20 - 16:00',
-		lunes: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Aula 3'},
-		martes: {materia: 'Graficas II', profesor: 'TS Emma Mamani', aula: 'Aula 6'},
+		lunes: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Taller de Escultura I'},
+		martes: {materia: 'Graficas II', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
 		miercoles: {materia: 'Pintura II', profesor: 'TS Jesus Florido', aula: 'Taller de Pintura III'},
 		jueves: {materia: 'Ceramica II', profesor: 'TS Sergio Vasquez', aula: 'Taller de Ceramica'},
 		viernes: {materia: 'Dibujo II', profesor: 'TS Alberto Quispe', aula: 'Taller de Dibujo I'}
@@ -414,8 +413,8 @@ export const horario = [
 		id: 40,
 		curso: '2C - Tarde',
 		hora: '16:15 - 16:55',
-		lunes: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Aula 3'},
-		martes: {materia: 'Graficas II', profesor: 'TS Emma Mamani', aula: 'Aula 6'},
+		lunes: {materia: 'Escultura II', profesor: 'TS Edgar Garcia', aula: 'Taller de Escultura I'},
+		martes: {materia: 'Graficas II', profesor: 'TS Emma Mamani', aula: 'Aula 5'},
 		miercoles: {materia: 'Pintura II', profesor: 'TS Jesus Florido', aula: 'Taller de Pintura III'},
 		jueves: {materia: 'Ceramica II', profesor: 'TS Sergio Vasquez', aula: 'Taller de Ceramica'},
 		viernes: {materia: 'Dibujo II', profesor: 'TS Alberto Quispe', aula: 'Taller de Dibujo I'}
@@ -526,7 +525,7 @@ export const horario = [
 		martes: {materia: 'Dibujo III', profesor: 'TS Wilmer Uscamayta', aula: 'Taller de Dibujo II'},
 		miercoles: {materia: 'Escultura III', profesor: 'TS Hugo Andia', aula: 'Taller de Escultura I'},
 		jueves: {materia: 'Pintura III', profesor: 'TS Remy Daza', aula: 'Taller de Pintura II'},
-		viernes: {materia: 'Historia del arte III', profesor: 'TS Jenny Camacho', aula: 'Aula 3'}
+		viernes: {materia: 'Historia del arte III', profesor: 'TS Jenny Camacho', aula: 'Taller de Pintura I'}
 	},
 	{
 		id: 51,
@@ -536,7 +535,7 @@ export const horario = [
 		martes: {materia: 'Dibujo III', profesor: 'TS Wilmer Uscamayta', aula: 'Taller de Dibujo II'},
 		miercoles: {materia: 'Escultura III', profesor: 'TS Hugo Andia', aula: 'Taller de Escultura I'},
 		jueves: {materia: 'Pintura III', profesor: 'TS Remy Daza', aula: 'Taller de Pintura II'},
-		viernes: {materia: 'Historia del arte III', profesor: 'TS Jenny Camacho', aula: 'Aula 3'}
+		viernes: {materia: 'Historia del arte III', profesor: 'TS Jenny Camacho', aula: 'Taller de Pintura I'}
 	},
 	{
 		id: 52,
@@ -573,9 +572,9 @@ export const horario = [
 		curso: '3B - Tarde',
 		hora: '16:55 - 17:35',
 		lunes: {materia: 'Graficas III', profesor: 'TS Silvia Salazar', aula: 'Aula 5'},
-		martes: {materia: 'Filosofia del arte', profesor: 'TS Tony Santander', aula: 'Aula de Historia'},
+		martes: {materia: 'Filosofia del arte', profesor: 'TS Tony Santander', aula: 'Aula 6'},
 		miercoles: {materia: 'Taller de Grado', profesor: 'Lic Jorge Saavedra', aula: 'Historia del Arte'},
-		jueves: {materia: 'Critica del arte', profesor: 'Lic Pablo Viracocha', aula: 'Aula 6'},
+		jueves: {materia: 'Critica del arte', profesor: 'Lic Pablo Viracocha', aula: 'Taller de Pintura I'},
 		viernes: {materia: 'Ceramica III', profesor: 'TS Tony Santander', aula: 'Taller de Ceramica'}
 	},
 	{
@@ -583,11 +582,14 @@ export const horario = [
 		curso: '3B - Tarde',
 		hora: '17:35 - 18:15',
 		lunes: {materia: 'Graficas III', profesor: 'TS Silvia Salazar', aula: 'Aula 5'},
-		martes: {materia: 'Filosofia del arte', profesor: 'TS Tony Santander', aula: 'Aula de Historia'},
+		martes: {materia: 'Filosofia del arte', profesor: 'TS Tony Santander', aula: 'Aula 6'},
 		miercoles: {materia: 'Taller de Grado', profesor: 'Lic Jorge Saavedra', aula: 'Historia del Arte'},
-		jueves: {materia: 'Critica del arte', profesor: 'Lic Pablo Viracocha', aula: 'Aula 6'},
+		jueves: {materia: 'Critica del arte', profesor: 'Lic Pablo Viracocha', aula: 'Taller de Pintura I'},
 		viernes: {materia: 'Ceramica III', profesor: 'TS Tony Santander', aula: 'Taller de Ceramica'}
 	},
+	
+	
+	
 	{
 		id: 57,
 		curso: '3C - Tarde',
@@ -646,7 +648,7 @@ export const horario = [
 		martes: {materia: 'Introduccion y Marketing de arte', profesor: 'Lic Pablo Viracocha', aula: 'Historia del arte'},
 		miercoles: {materia: 'Critica del arte', profesor: 'Lic Pablo Viracocha', aula: 'Aula 6'},
 		jueves: {materia: 'Historia del arte III', profesor: 'TS Jenny Camacho', aula: 'Taller de pintura II'},
-		viernes: {materia: 'Taller de Grado', profesor: 'Lic Jorge Saavedra', aula: 'Aula 6'}
+		viernes: {materia: 'Taller de Grado', profesor: 'Lic Jorge Saavedra', aula: 'Aula 5'}
 	},
 	{
 		id: 63,
@@ -656,7 +658,7 @@ export const horario = [
 		martes: {materia: 'Introduccion y Marketing de arte', profesor: 'Lic Pablo Viracocha', aula: 'Historia del arte'},
 		miercoles: {materia: 'Critica del arte', profesor: 'Lic Pablo Viracocha', aula: 'Aula 6'},
 		jueves: {materia: 'Historia del arte III', profesor: 'TS Jenny Camacho', aula: 'Taller de pintura II'},
-		viernes: {materia: 'Taller de Grado', profesor: 'Lic Jorge Saavedra', aula: 'Aula 6'}
+		viernes: {materia: 'Taller de Grado', profesor: 'Lic Jorge Saavedra', aula: 'Aula 5'}
 	},
 	
 	
